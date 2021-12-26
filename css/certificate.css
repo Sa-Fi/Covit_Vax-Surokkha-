@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* navigatin bar */
+#navbarNav {
+  padding-left: 30px;
+}
+#navbarNav .navbar-nav .nav-item .nav-link {
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#navbarNav .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 2px solid black;
+}
+/* v_reg_banner */
+
+#v_reg_banner > div > div {
+  background-color: rgb(218, 255, 242);
+}
+#v_reg_form .v_head {
+  width: 5px;
+  height: 33px;
+  background-color: rgb(255, 72, 60);
+  display: block;
+}
+#v_reg_details .v_head {
+  width: 5px;
+  height: 33px;
+  background-color: rgb(255, 72, 60);
+  display: block;
+}
+#v_reg_form > div > div:nth-child(2) > div.col-md-4.mt-3 > form > input {
+  border-radius: 10px;
+  outline: none;
+  font-weight: 100;
+  padding: 7px;
+  background-color: rgb(243, 249, 255);
+  width: 350px;
+}
+#v_reg_form
+  > div
+  > div:nth-child(2)
+  > div.col-md-5.mt-3
+  > form
+  > select.p-2.date_selection.mr-3 {
+  border-radius: 10px;
+  outline: none;
+  font-weight: 100;
+  padding: 7px;
+  background-color: rgb(243, 249, 255);
+}
+#v_reg_form
+  > div
+  > div:nth-child(2)
+  > div.col-md-5.mt-3
+  > form
+  > select:nth-child(2) {
+  border-radius: 10px;
+  outline: none;
+  font-weight: 100;
+  padding: 7px;
+  background-color: rgb(243, 249, 255);
+}
+#v_reg_form
+  > div
+  > div:nth-child(2)
+  > div.col-md-5.mt-3
+  > form
+  > select:nth-child(3) {
+  border-radius: 10px;
+  outline: none;
+  font-weight: 100;
+  padding: 7px;
+  background-color: rgb(243, 249, 255);
+}
+/* footer */
+#footer {
+  background-color: rgb(242, 109, 62);
+}
+#footer a {
+  color: white;
+}
+#footer p {
+  color: white;
+}

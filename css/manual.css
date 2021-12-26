@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* navigatin bar */
+#navbarNav {
+  padding-left: 30px;
+}
+#navbarNav .navbar-nav .nav-item .nav-link {
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#navbarNav .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 2px solid black;
+}
+/* v_reg_banner */
+
+#v_reg_banner > div > div {
+  background-color: rgb(218, 237, 255);
+}
+#down > div > div > div.col-md-8.text-center.my-4.py-5 {
+  background-color: rgb(255, 243, 225);
+}
+#other .v_head {
+  width: 5px;
+  height: 33px;
+  background-color: rgb(255, 72, 60);
+  display: block;
+}
+
+/* other section  */
+
+#other > div > div:nth-child(2) > div > span {
+  display: block;
+  width: 7px;
+  height: 130px;
+  background-color: rgb(216, 222, 0);
+  border-radius: 0 7px 7px 0;
+}
+#other > div > div:nth-child(2) > div:nth-child(2) > span {
+  display: block;
+  width: 7px;
+  height: 130px;
+  background-color: rgb(37, 190, 136);
+  border-radius: 0 7px 7px 0;
+}
+#other > div > div:nth-child(2) > div:nth-child(3) > span {
+  display: block;
+  width: 7px;
+  height: 130px;
+  background-color: rgb(95, 198, 204);
+  border-radius: 0 7px 7px 0;
+}
+#other > div > div:nth-child(2) > div:nth-child(4) > span {
+  display: block;
+  width: 7px;
+  height: 130px;
+  background-color: rgb(0, 163, 255);
+  border-radius: 0 7px 7px 0;
+}
+#other .other_img {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+/* footer */
+#footer {
+  background-color: rgb(242, 109, 62);
+}
+#footer a {
+  color: white;
+}
+#footer p {
+  color: white;
+}

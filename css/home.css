@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+#navbarNav {
+  padding-left: 30px;
+}
+#navbarNav .navbar-nav .nav-item .nav-link {
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#navbarNav .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 2px solid black;
+}
+/* banner */
+#banner a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+#banner .container-fluid1 {
+  background-image: url(../img/home_banner.jpg);
+  height: 85vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* .banner-color {
+  background: rgb(254, 189, 99);
+  height: 85vh;
+  width: 100%;
+  opacity: 0.3;
+} */
+.banner-color .row {
+  padding-top: 100px;
+}
+.banner-color .b_contact {
+  background-color: white;
+  border-radius: 5px;
+}
+#banner .next-page {
+  background-color: #fff;
+  border-radius: 7px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#banner .next-page a {
+  transition: 0.5s all;
+}
+#banner .next-page a:hover {
+  color: rgb(21, 21, 228);
+  letter-spacing: 1px;
+}
+#govt_contact {
+  margin-top: -30px;
+}
+#govt_contact .fas {
+  color: rgb(41, 138, 68);
+  font-size: 30px;
+}
+#govt_contact .text p {
+  color: rgb(9, 56, 111);
+  font-size: 17px;
+}
+#govt_contact .text-center {
+  border-right: 2px solid rgb(214, 99, 99);
+}
+#govt_contact .container {
+  background-color: rgb(243, 242, 242);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#govt_contact > div > div > div:nth-child(6) {
+  border: none;
+}
+
+/* <!-- vaccine recieving process  --> */
+#vaccine {
+  padding-top: 60px;
+}
+#vaccine .v_head {
+  width: 5px;
+  height: 33px;
+  background-color: rgb(255, 72, 60);
+  display: block;
+}
+#vaccine .v_text p {
+  font-weight: 100;
+  font-family: "Baloo Bhai 2", cursive;
+}
+/* <!-- mujib portal --> */
+#m_portal {
+  text-decoration: none;
+}
+#m_portal .v_head {
+  width: 5px;
+  height: 33px;
+  background-color: rgb(255, 72, 60);
+  display: block;
+}
+/* footer */
+#footer {
+  background-color: rgb(242, 109, 62);
+}
+#footer a {
+  color: white;
+}
+#footer p {
+  color: white;
+}
